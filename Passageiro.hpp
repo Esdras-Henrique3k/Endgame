@@ -7,7 +7,7 @@ int idade;
 double peso;
 int viagem;
 
-passageiro(string _nome, int _idade, double _peso);
+passageiro(string _nome, int _idade, double _peso, int _viagem);
 incrementarHistorico();
 
 
