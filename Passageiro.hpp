@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <string>
 class passageiro{
 
 string nome;
