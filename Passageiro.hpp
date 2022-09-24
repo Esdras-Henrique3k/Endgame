@@ -5,10 +5,11 @@ class passageiro{
 string nome;
 int idade;
 double peso;
-int viagem;
+int fidelidade;
 
 passageiro(string _nome, int _idade, double _peso, int _viagem);
-incrementarHistorico();
+void incrementarfidelidade();
+void getFidelidade();
 
 
 };
