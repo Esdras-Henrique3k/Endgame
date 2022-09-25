@@ -5,7 +5,8 @@ class viagem{
   onibus busao;
   funcionario motorista;
   vector<cliente> passageiro;
-  int peso;
+  double peso;
+  int assento;
    
   public:
    
