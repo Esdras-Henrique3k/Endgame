@@ -1,10 +1,18 @@
-#include "onibus.hpp"
-#include "funcionario.hpp"
-#include "cliente.hpp"
+#include "cadastro.hpp"
 
 class viagem{
    
-  string destino;
+  onibus busao;
+  funcionario motorista;
+  vector<cliente> passageiro;
+  int peso;
+   
+  public:
+   
+  viagem();
+  void adicionarPassageiro();
+  ~viagem();
   
+ 
   
 };
