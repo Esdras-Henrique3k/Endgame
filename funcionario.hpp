@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-class motorista{
+class funcionario{
   string nome;
   int idade;
   double peso;
@@ -10,7 +10,7 @@ class motorista{
   /* pensei em dividir em 3 estados (a,b,c) sendo 'c' o pior estado e 'a' o melhor estado, para assim tornar um pré requisito 
   a depender da previsão de duração da viagem*/
   
-  motorista(string _nome, int _idade, double _peso, char _estado);
+  funcionario(string _nome, int _idade, double _peso, char _estado);
   void incrementarExperiencia();
   void getEstado();
   void getExperiencia();
