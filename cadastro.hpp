@@ -4,6 +4,7 @@ class cadastro{
   
   vector<cliente> clientes;
   vector<funcionario> funcionario;
+  vector<onibus> onibus;
  
   
   public:
@@ -11,5 +12,6 @@ class cadastro{
   cadastro();
   void adicionarFuncionario();
   void adicionarCliente();
+  void adicionarOnibus();
   
 };
