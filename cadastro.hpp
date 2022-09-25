@@ -1,6 +1,7 @@
 #include "cliente.hpp"
 #include "funcionario.hpp"
 #include "cliente.hpp"
+#include <vector>
 
 class cadastro{
   
