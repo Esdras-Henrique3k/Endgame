@@ -9,7 +9,7 @@ int fidelidade=0; /*será sempre inicializada com 0*/
 
 public:
   
-cliente(string _nome, int _idade, double _peso);
+clienteTeste(string _nome, int _idade, double _peso);
 void incrementarFidelidade();
 void getFidelidade();
 void getPeso();
