@@ -10,7 +10,7 @@ class viagem{
    
   public:
    
-  viagem();
+  viagem(onibus _busao, funcionario _motorista);
   void adicionarPassageiro();
   ~viagem();
   
