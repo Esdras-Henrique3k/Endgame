@@ -12,7 +12,8 @@ class cadastro{
  
   
   public:
-  
+
+  cadastro();
   void adicionarFuncionario();
   void adicionarCliente();
   void adicionarOnibus();
