@@ -13,7 +13,7 @@ class cadastro{
   
   public:
   
-  cadastroDeCliente();
+  cadastroTESTE();
   void adicionarFuncionario();
   void adicionarCliente();
   void adicionarOnibus();
