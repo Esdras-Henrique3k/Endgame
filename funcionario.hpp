@@ -7,8 +7,7 @@ class funcionario{
   double peso;
   int experiencia; /* numero de viagens*/
   char estado;
-  /* pensei em dividir em 3 estados (a,b,c) sendo 'c' (viagem curta), 'b' (viagem média) e 'a' viagem longa, assim, se tornando um pré requisito 
-  a depender da duração da viagem*/
+  /* pensei em dividir em 3 estados (a,b,c) sendo 'c' (viagem curta), 'b' (viagem média) e 'a' viagem longa, assim, se tornando um pré requisito a depender da duração da viagem*/
   
   public:
   
