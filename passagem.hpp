@@ -4,8 +4,7 @@
 class passagem{
 
 rota x;
-motorista y;
-passageiro z;
+passageiro y;
 
 public:
 
