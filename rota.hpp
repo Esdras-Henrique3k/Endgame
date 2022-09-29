@@ -1,5 +1,11 @@
+#ifndef ROTA_HPP
+#define ROTA_HPP
+  
 #include <iostream>
 #include <vector>
+#include <string>
+
+using namespace std;
 
 class rota{
    
@@ -8,12 +14,26 @@ class rota{
   int horario;
   double preco;
   int paradas;
-  onibus tipo;
+  string tipo;
+  int assentos;
+  motorista responsavel;
+  vector<*passageiro> passageiros;
     
   public:
    
-rota(string _origem, string _destino,vector<int> _horario, double _preco, int _paradas, onibus _tipo);
-  
+rota(string _origem, string _destino,int _horario, double _preco, int _paradas, string _tipo, int assentos, motorista _responsavel);
+
+string getOrigem();
+string getDestino();
+int getHorario();
+double getPreco();
+int getParadas();
+string getTipo();
+int getAssentos();
+string comprar();
+
 };
+
+#endif
 
  
