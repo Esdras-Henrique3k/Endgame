@@ -3,6 +3,7 @@
 
 class administrador : public pessoa{
 
+administrador();
 
 }
 

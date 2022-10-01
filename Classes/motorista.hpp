@@ -3,12 +3,12 @@
 
 class motorista : public pessoa{
 
-bool CNH;
+rota* responsavel;
 
 public:
 
 motorista();
-bool getCNH();
+rota* getRota();
 
 };
 

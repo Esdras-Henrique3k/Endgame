@@ -3,13 +3,12 @@
 
 class passageiro : public pessoa{
 
-string categoria;
 int fidelidade;
 
 public:
 
 passageiro();
-void setCategoria(string _categoria);
+int incremenarFidelidade();
 
 };
 

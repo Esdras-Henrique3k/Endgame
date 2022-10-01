@@ -14,10 +14,9 @@ string destino;
 int horario;
 double preco;
 int paradas;
-string tipo;
 int assentos;
-motorista *responsavel;
-vector<passageiro> passageiros;
+string tipo;
+
     
 public:
    
@@ -27,10 +26,8 @@ string getDestino();
 int getHorario();
 double getPreco();
 int getParadas();
-string getTipo();
 int getAssentos();
-motorista *getMotorista();
-string comprar();
+string getTipo();
 
 };
 
