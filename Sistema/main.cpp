@@ -1,24 +1,29 @@
 #include <iostream>
 #include <string>
-#include "bboard.cpp"
-#include "user.cpp"
+#include "bboard.hpp"
+#include "user.hpp"
 
 using namespace std;
 
 int main(){
   
-  bboard* sistema = new bboard();
+  bboard* sistema=new bboard();
   string opcao;
   bool validacao=false;
+  string cargo,usuario,senha;
+  int numero;
   
-  cout<<"Digite uma das opcoes (login/cadastro): "
+  cout<<"Digite uma das opcoes (login/cadastro): ";
   cin>>opcao;
+  if(opcao=="cadastro") numero=1;
+  if(opcao=="login") numero=2;
+  
     
-  switch(opcao){
+  switch(numero){
     
-    case 'cadastro':
+    case 1:
       
-    string cargo,usuario,senha;
+    
     cout<<"\nDigite o seu cargo: ";
     cin >> cargo;
     cout<<"\nDigite o usuario: ";
@@ -30,9 +35,9 @@ int main(){
       
     break;
     
-    case 'login':
+    case 2:
       
-    string cargo,usuario,senha;
+    
     cout<<"\nDigite o seu cargo: ";
     cin >> cargo;
     cout<<"\nDigite o usuario: ";

@@ -15,7 +15,7 @@ private:
     
 public:
     bboard();
-    Void cadastrar();
+    void cadastrar(std::string cargo,std::string usuario, std::string senha);
     bool loginADM();
     bool loginDRIVER();
     bool loginCLIENT();
