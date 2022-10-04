@@ -9,7 +9,7 @@ private:
 public:
     user(const std::string& uname, const std::string& pass);
     std::string get_username() const;
-    bool available(const std::string &uname) const;
+    /*bool available(const std::string &uname) const;*/
     bool check(const std::string &uname, const std::string &pass) const;
    
 };
