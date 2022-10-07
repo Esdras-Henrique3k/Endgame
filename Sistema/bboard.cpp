@@ -12,28 +12,28 @@ void bboard::cadastrar(std::string& cargo,std::string& usuario, std::string& sen
 	
 
         if(cargo=="administrador"){
-        /*std::vector<user>::iterator itr = user_listADM.begin();	
+        std::vector<user>::iterator itr = user_listADM.begin();	
 		while (itr != user_listADM.end()){
         	if(itr->available(usuario)){ std::cout << "\nUsuario existente"<< std::endl; return; }
-            itr++; }*/
+            itr++; }
 		user_listADM.push_back(user(usuario,senha));
 		}
         
         
         if(cargo=="motorista"){
-		/*std::vector<user>::iterator itr = user_listDRIVER.begin();
+		std::vector<user>::iterator itr = user_listDRIVER.begin();
         while (itr != user_listDRIVER.end()){
         	if(itr->available(usuario)){ std::cout << "\nUsuario existente"<< std::endl; return; }
-            itr++; }*/
+            itr++; }
         user_listDRIVER.push_back(user(usuario,senha));
     	}
     	
     	
     	if(cargo=="cliente"){
-    	/*std::vector<user>::iterator itr = user_listCLIENT.begin();
+    	std::vector<user>::iterator itr = user_listCLIENT.begin();
         while (itr != user_listCLIENT.end()){
         	if(itr->available(usuario)){ std::cout << "\nUsuario existente"<< std::endl; return; }
-            itr++; }*/
+            itr++; }
         user_listCLIENT.push_back(user(usuario,senha));
 		}
              

@@ -11,6 +11,6 @@ bool user::check(const std::string &uname, const std::string &pass) const{
     return ((username == uname) && (password == pass));
 }
 
-/*bool user::available(const std::string &uname) const{
+bool user::available(const std::string &uname) const{
     return ((username == uname));
-}*/
+}
