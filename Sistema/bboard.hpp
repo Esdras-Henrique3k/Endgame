@@ -3,22 +3,25 @@
 
 #include <string>
 #include <vector>
-#include "user.hpp"
+#include <list>
+#include "driver.hpp"
+#include "adm.hpp"
+#include "client.hpp"
 
 
 class bboard{
 private:
     std::string title;
-    std::vector<user> user_listADM;
-    std::vector<user> user_listDRIVER;
-    std::vector<user> user_listCLIENT;
+    std::vector<user> user_list;
+    std::list<rota> rotas;
+    
     
 public:
     bboard();
     void cadastrar(std::string& cargo,std::string& usuario, std::string& senha);
-    bool loginADM();
-    bool loginDRIVER();
-    bool loginCLIENT();
+    bool login();
+    void adicionarRota(rota x);
+    void removerRota(rota y);
 };
 
 #endif

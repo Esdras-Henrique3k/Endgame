@@ -12,22 +12,21 @@ class rota{
 string origem;
 string destino;
 int horario;
-double preco;
 int paradas;
-int assentos;
 string tipo;
+int tickets;
 
     
 public:
    
-rota();
+rota(std::string _origem, std::string _destino, int _horario, int _paradas, int _tickets, std::string _tipo);
 string getOrigem();
 string getDestino();
 int getHorario();
-double getPreco();
 int getParadas();
-int getAssentos();
+int getTickets();
 string getTipo();
+string descricaoRota();
 
 };
 
