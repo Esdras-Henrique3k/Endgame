@@ -28,7 +28,7 @@ bool bboard::login(){
     std::cout << "\nBEM VINDO A " << title << std::endl;
 
     while (!found) {
-        found = false;
+        
         std::cout << "\nDigite o seu usuario ('exit' para encerrar): ";
         std::cin >> sn; std::cin.clear();
         if(sn == "exit"){
@@ -36,11 +36,12 @@ bool bboard::login(){
         }
         std::cout << "Digite sua senha: ";
         std::cin >> pw; std::cin.clear();
-        std::vector<adm>::iterator itr = user_list.begin();
+        std::vector<user>::iterator itr = user_list.begin();
         while (itr != user_list.end()){
           
             if (itr->check(sn, pw)) {
                 std::cout << "\nAcesso concedido!"<< std::endl;
+				itr->painel();
                 found = true;
                 break; }
           
