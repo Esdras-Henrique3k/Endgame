@@ -61,5 +61,9 @@ void bboard::adicionarRota(rota x){
 }
 
 void bboard::removerRota(rota y){
+	
+  for(auto a = rotas.begin(); a != rotas.end(); a++){
+  if((*a)==y){rotas.erase(y) break;}
   
+	
 }
