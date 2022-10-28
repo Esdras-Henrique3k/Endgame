@@ -13,6 +13,7 @@ public:
 
 adm(const std::string& uname, const std::string& pass);
 void incrementarCaixa();
+bool painel override();
 
 
 }

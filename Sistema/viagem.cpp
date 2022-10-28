@@ -14,5 +14,5 @@ void viagem::setRota(){
 }
 
 void viagem::comprarAssento(){
-  
+
 }
