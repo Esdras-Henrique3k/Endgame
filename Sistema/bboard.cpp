@@ -57,14 +57,14 @@ bool bboard::login(){
 }
 
 void bboard::adicionarRota(rota x){
-  rotas.insert()
+  rotas.push_back(x)
   
 }
 
 void bboard::removerRota(rota y){
 	
   for(auto a = rotas.begin(); a != rotas.end(); a++){
-  if((*a)==y){rotas.erase(y) break;}
+  if(a->descricaoRota == y.descricaoRota){rotas.erase(a) break;}
   
 	
 }

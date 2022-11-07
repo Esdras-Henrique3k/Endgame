@@ -7,6 +7,7 @@ class adm : public user{
 
 private:
 
+bboard* sistema = new bboard();
 float caixa;
 
 public:

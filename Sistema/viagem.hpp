@@ -14,8 +14,9 @@ rota* rota;
 
 public:
 
-viagem()= default;
-void comprarAssento;
+void setAssento(int _assentos);
+void setRota(rota* _rota);
+void comprarAssento();
 
 
 }

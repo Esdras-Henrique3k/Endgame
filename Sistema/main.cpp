@@ -7,7 +7,6 @@ using namespace std;
 
 int main(){
   
-  bboard* sistema = new bboard();
   
   return 0;
 }

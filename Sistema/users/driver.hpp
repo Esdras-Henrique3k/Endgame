@@ -9,7 +9,7 @@ rota* responsavel;
 
 public:
 
-driver();
+void setRota();
 std::string getRota();
 void painel override();
 

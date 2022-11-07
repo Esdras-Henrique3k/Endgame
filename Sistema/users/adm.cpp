@@ -1,9 +1,6 @@
 #include "adm.hpp"
 #include "bboard.hpp"
 
-
-adm::adm(){}
-
 void adm::incrementarCaixa(float _caixa){
 	
   caixa+=_caixa;
@@ -74,7 +71,6 @@ sistema->removerRota(rota(origem, destino, horario, paradas, tipo, tickets));
     if(y=="exit"){ stream=false;}else{std::cout<<"opcao invalida!"};
 	
                }
-	
   
   
 }

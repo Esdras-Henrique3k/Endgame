@@ -3,9 +3,10 @@
 #include <string>
 
 class user{
-private:
+protected:
     std::string username;
     std::string password;
+	static bboard* sistema = new bboard();
 public:
     user(const std::string& uname, const std::string& pass);
     std::string get_username() const;
