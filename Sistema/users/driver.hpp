@@ -11,6 +11,7 @@ public:
 
 driver();
 std::string getRota();
+void painel override();
 
 };
 

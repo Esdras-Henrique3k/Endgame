@@ -5,7 +5,9 @@
 adm::adm(){}
 
 void adm::incrementarCaixa(float _caixa){
+	
   caixa+=_caixa;
+	
 }
 
 bool user::painel(){
@@ -68,12 +70,11 @@ std::cin>>tickets;
 sistema->removerRota(rota(origem, destino, horario, paradas, tipo, tickets));
 		
 		}else{std::cout<<"opcao invalida!"};
-    if(y=="exit"){ stream=false;              }else{std::cout<<"opcao invalida!"};
-	  
+	
+    if(y=="exit"){ stream=false;}else{std::cout<<"opcao invalida!"};
+	
                }
-  
-  
-  
+	
   
   
 }

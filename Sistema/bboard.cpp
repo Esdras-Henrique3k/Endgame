@@ -39,7 +39,7 @@ bool bboard::login(){
         std::vector<user>::iterator itr = user_list.begin();
         while (itr != user_list.end()){
           
-            if (itr->check(sn, pw)) {
+            if (itr->check(sn, pw)){
                 std::cout << "\nAcesso concedido!"<< std::endl;
 				itr->painel();
                 found = true;

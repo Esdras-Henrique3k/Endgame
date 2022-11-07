@@ -15,6 +15,7 @@ client(const std::string& uname, const std::string& pass);
 void incremenarFidelidade();
 int getFidelidade();
 void setIdade();
+bool painel override();
 
 };
 
