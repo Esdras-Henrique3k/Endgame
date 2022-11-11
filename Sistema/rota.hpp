@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Rota{
+class rota{
    
 string origem;
 string destino;
@@ -19,7 +19,7 @@ int tickets;
     
 public:
    
-Rota(std::string _origem, std::string _destino, int _horario, int _paradas, int _tickets, std::string _tipo);
+rota(std::string _origem, std::string _destino, int _horario, int _paradas, int _tickets, std::string _tipo);
 string getOrigem();
 string getDestino();
 int getHorario();

@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-class Pessoa{
+class Pessoa {
 std::string ID;
 std::string nome;
 int idade;

@@ -33,8 +33,8 @@ public:
                 const std::string& new_password);
 
     bool login();
-    void adicionarRota(rota x);
-    void removerRota(rota y);
+    //void adicionarRota(rota x);
+    //void removerRota(rota y);
 
     
 };
