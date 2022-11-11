@@ -1,11 +1,11 @@
 #ifndef DRIVER_HPP
 #define DRIVER_HPP
 
-class driver : public user{
+class Driver : public user {
 
 private:
 
-rota* responsavel;
+Rota* responsavel;
 
 public:
 
