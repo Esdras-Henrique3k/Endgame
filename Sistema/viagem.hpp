@@ -2,8 +2,8 @@
 #define VIAGEM_HPP
 
 #include "rota.hpp"
-#include "ticket"
-#include "user"
+#include "ticket.hpp"
+#include "user.hpp"
 
 class viagem {
 

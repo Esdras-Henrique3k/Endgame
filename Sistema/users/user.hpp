@@ -1,9 +1,9 @@
 #ifndef USER_HPP
 #define USER_HPP
 #include <string>
-
+#include "bboard.hpp"
 class user{
-protect:
+protected:
     std::string ID;
     std::string nome;
     std::string username;
