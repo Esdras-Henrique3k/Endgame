@@ -19,7 +19,9 @@ void bboard::cadastrar(std::string& cargo,std::string& usuario, std::string& sen
       
             itr++; 
       }
-		user_list.push_back(user(usuario,senha));
+		if(cargo=="client")user_list.push_back(client(usuario,senha));
+		if(cargo=="driver")user_list.push_back(driver(usuario,senha));
+		if(cargo=="adm")user_list.push_back(adm(usuario,senha));
 		}
 
 bool bboard::login(){
@@ -86,19 +88,25 @@ bool senha;
    else {}
 */
    }
+void bboard::adicionarTicket(){
+	comprado++;
+	}
+void bboard::removerTicket(){
+	comprado--;
+}
+
 void bboard::adicionarRota(rota x){
-  rotas.push_back(x)
-  
+  rotas.push_back(x);
 }
 
 void bboard::removerRota(rota y){
 	
-  for(auto a = rotas.begin(); a != rotas.end(); a++){
-  if(a->descricaoRota == y.descricaoRota){rotas.erase(a) break;}
+  for(auto a : rotas){
+  if(a.descricaoRota == y.descricaoRota){rotas.erase(a) break;}
   
 	
 }
 
-void bboard::remove(const std::string& usuario) {
+//void bboard::remove(const std::string& usuario) {
   
-}
+//}

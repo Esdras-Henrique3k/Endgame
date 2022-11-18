@@ -77,9 +77,3 @@ sistema->removerRota(rota(origem, destino, horario, paradas, tipo, tickets));
   
   
 }
-rota adm::adicionarRota(){
-  
-}
-driver adm::adicionarDriver(driver motorista){
-  
-}

@@ -9,13 +9,14 @@
 #include "adm.hpp"
 #include "client.hpp"
 #include "rota.hpp"
-#include "user.hpp"
+#include "ticket.hpp"
 
 
 class bboard{
 private:
     std::string title;
     std::vector<user> user_list;
+	int comprado;
     std::list<rota> rotas;
     bool checkPassword(const std::string& password) const;
     
@@ -25,16 +26,18 @@ public:
                    std::string& usuario, 
                    std::string& senha);
 
-    void remove(const std::string& usuario);
+    //void remove(const std::string& usuario);
 
-    void update(const std::string& cargo,
-                const std::string& login,
-                const std::string& old_password,
-                const std::string& new_password);
+    //void update(const std::string& cargo,
+     //           const std::string& login,
+     //           const std::string& old_password,
+     //           const std::string& new_password);
 
     bool login();
-    //void adicionarRota(rota x);
-    //void removerRota(rota y);
+	void adicionarTicket();
+	void removerTicket();
+    void adicionarRota(rota x);
+    void removerRota(rota y);
 
     
 };

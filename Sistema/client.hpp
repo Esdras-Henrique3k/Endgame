@@ -6,6 +6,7 @@ class client : public user{
 
 private:
 
+
 int fidelidade;
 int idade;
 

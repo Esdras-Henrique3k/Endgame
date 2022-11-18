@@ -1,7 +1,8 @@
 #ifndef DRIVER_HPP
 #define DRIVER_HPP
+#include "rota.hpp"
 
-class driver : public user {
+class driver : user{
 
 private:
 
@@ -11,7 +12,7 @@ public:
 
 void setRota();
 std::string getRota();
-void painel override();
+bool painel override();
 
 };
 

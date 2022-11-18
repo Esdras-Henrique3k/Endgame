@@ -4,10 +4,12 @@
 #include "user.hpp"
 class ticket{
   private:
+	rota rota;
     float preco;
     user buyer;
   public: 
-      void imprimir(rota _y);
+	  ticket(rota _rota, float _preco, user _buyer);
+      void imprimir();
 };
 
   #endif

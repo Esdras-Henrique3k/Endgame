@@ -16,8 +16,6 @@ public:
 adm(const std::string& uname, const std::string& pass);
 void incrementarCaixa(float _caixa);
 bool painel override();
-rota adicionarRota();
-driver adicionarDriver(driver motorista);
 
 }
 
