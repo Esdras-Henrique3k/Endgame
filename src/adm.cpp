@@ -21,8 +21,7 @@ bool adm::painel() {
         std::getline(std::cin, y);
 
         if(y == "adicionar rota") {
-            // rota* x = new rota;
-            //x-> adicionarRota();   
+             
 
             std::string origem;
             std::string destino;

@@ -53,7 +53,7 @@ int main(){
              << endl;
 
         Sleep(15);
-        cout << "\n                    \t\t1.CADASTRAR \n                    \t\t2.CLIENT LOGIN \n                    \t\t3.ADM\DRIVER LOGIN \n"
+        cout << "\n                    \t\t1.CADASTRAR \n                    \t\t2.CLIENT LOGIN \n                    \t\t3.ADM OU DRIVER LOGIN \n"
              << "                    \t\t4.SAIR LOGIN";
 
         for (int i = 0; i < 1; i++) {
