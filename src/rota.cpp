@@ -22,15 +22,11 @@ int rota::getParadas() {
 }
 
 void rota::decrementarTickets() {
-    /*if(tickets <= 0) {
-        throw std::exception();
-    }*/
-
     tickets--;
 }
 
-std::string rota::getTipo() {
-    return tipo;
+std::string rota::getTickets() {
+    return tickets;
 }
 
 std::string rota::descricaoRota() {

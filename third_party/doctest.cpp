@@ -4,7 +4,7 @@
 
 TEST_CASE("Cadastro"){
 
-SUBCASE("Realizado"){CHECK_EQ(Triangle(5,3,3).getPerimeter()==11);}
+SUBCASE("Realizado"){CHECK_THROW_AS(Triangle(5,3,3).getPerimeter()==11);}
 SUBCASE("Negado"){CHECK_EQ(Triangle(5,4,3).getPerimeter()==12);}
 
 }
