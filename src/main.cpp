@@ -99,7 +99,11 @@ int main(){
                 cin >> user;
                 cout << "\nsenha:";
                 cin >> senha;
+				try{
                 bboard::get_instance()->cadastrar(cargo, user, senha);
+					}catch(std::exception &e){
+					std::cout << "\nUsuario existente" << std::endl;
+					}
                 break;
             }
             case 2: {

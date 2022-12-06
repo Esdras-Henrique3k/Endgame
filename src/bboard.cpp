@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <list>
+#include <exception>
 
 #include "bboard.hpp"
 
@@ -27,8 +28,7 @@ bboard* bboard::get_instance() {
 void bboard::cadastrar(std::string& cargo, std::string& usuario, std::string& senha) {
     for(std::vector<User*>::iterator iterator = get_instance()->user_list.begin(); iterator != get_instance()->user_list.end(); iterator++) {
         if((*iterator)->available(usuario)) {
-            std::cout << "\nUsuario existente" << std::endl;
-            return;
+            throw std::exception();
         }
     }
 

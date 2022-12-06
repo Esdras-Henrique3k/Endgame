@@ -2,7 +2,6 @@
 
 #include "User.hpp"
 
-User::User() {}
 User::User(const std::string& uname, const std::string& pass) : username(uname), password(pass) {}
 
 void User::setUsername(const std::string& uname) {
