@@ -1,0 +1,1 @@
+Arquivo Txt apenas para a pasta build não ser apagada.
