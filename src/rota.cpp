@@ -25,7 +25,7 @@ void rota::decrementarTickets() {
     tickets--;
 }
 
-std::string rota::getTickets() {
+int rota::getTickets() {
     return tickets;
 }
 
