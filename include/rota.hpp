@@ -19,7 +19,7 @@ class rota {
         int getHorario();
         int getParadas();
         void decrementarTickets();
-        std::string getTickets();
+        int getTickets();
         std::string descricaoRota();
 };
 
