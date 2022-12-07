@@ -25,7 +25,9 @@ O projeto trata-se de um trabalho em grupo para a disciplina de Programação e 
 # Autores
 
 Filipe de Lima Venturi - https://github.com/lipe753
+
 Lucas Araújo Pinto Resende - https://github.com/Lucas-resende21
+
 Kathelyn Tereza Mendes Gaioni - https://github.com/kathelyngaioni
 
 
