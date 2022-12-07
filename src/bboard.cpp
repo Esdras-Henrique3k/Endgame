@@ -100,7 +100,7 @@ void bboard::removerRota(rota y) {
 void bboard::decrementarTicketDaRota(rota alvo) {
     for(int i = 0; i < get_instance()->rotas.size(); i++) {
         if(get_instance()->rotas[i].descricaoRota() == alvo.descricaoRota()) {
-	if(bboard::get_instance()->getTickets()<= 0) {
+	if(bboard::get_instance()->rotas[i].getTickets()<= 0) {
     	throw std::exception();
     }
             get_instance()->rotas[i].decrementarTickets();
