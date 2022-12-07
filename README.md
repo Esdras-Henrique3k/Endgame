@@ -20,7 +20,13 @@ O projeto trata-se de um trabalho em grupo para a disciplina de Programação e 
 
 # Como executar o projeto
 
-  Abacate
+  1. Acessar a pasta raiz do projeto onde está o makefile
+  
+  2. Executar o comando make
+  
+  3. Acessar a pasta bin do projeto
+  
+  4. Executar o arquivo run ou run.exe
 
 # Autores
 
